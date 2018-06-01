@@ -1,0 +1,4 @@
+[
+	{ "keys": ["shift+f8"], "command": "highlight_word" },
+	{ "keys": ["f8"], "command": "unhighlight_word" }
+]
