@@ -27,9 +27,7 @@ class HighlightWordCommand(sublime_plugin.WindowCommand):
         for region in view.sel():
             region = region.empty() and view.word(region) or region
             cursor_word = view.substr(region).strip()
-            if cursor_word in word_list:
-                word_list.remove(cursor_word)
-            else:
+            if cursor_word not in word_list:
                 word_list.append(cursor_word)
             break
         self.highlight(word_list)
