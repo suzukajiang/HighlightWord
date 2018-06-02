@@ -9,7 +9,6 @@
 				"children":
 				[
 					{ "command": "highlight_word" },
-					{ "command": "unhighlight_word" }
 				]
 			}
 		]
@@ -28,7 +27,7 @@
 				"children":
 				[
 					{
-						"caption": "HighlightWords",
+						"caption": "HighlightWord",
 						"children":
 						[
 							{
